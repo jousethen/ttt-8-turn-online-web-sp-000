@@ -43,7 +43,7 @@ def turn (board)
   input = gets.strip
   index = input_to_index(input)
   
-  until valid_move?
+  until valid_move?(board, index)
     puts "Invalid Input. Please try again"
     input = gets.strip
     index = input_to_index(input)
