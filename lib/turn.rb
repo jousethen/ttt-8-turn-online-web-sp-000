@@ -38,11 +38,11 @@ def turn (board)
   index = input_to_index(input)
   
   until valid_move?
-end
-  if valid_move(board, index)
-    move (board, index)
-  else
-    
+    puts "Invalid Input. Please try again"
+    input = gets.strip
+    index = input_to_index(input)
   end
+  
+    move (board, index)
 end
   
