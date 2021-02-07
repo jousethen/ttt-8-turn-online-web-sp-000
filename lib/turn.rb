@@ -1,3 +1,4 @@
+# Checks to see if the spot on the board is taken
 def position_taken?(board, index)
   if board[index] == "" || board [index] == " " || board[index] == nil
     return FALSE
