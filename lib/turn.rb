@@ -49,8 +49,6 @@ def turn (board)
     index = input_to_index(input)
   end
   
-  puts "Move is valid #{index}"
-  
   move(board,index)
 end
   
