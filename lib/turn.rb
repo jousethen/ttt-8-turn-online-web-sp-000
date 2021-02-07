@@ -50,6 +50,7 @@ def turn (board)
   end
   
   puts "Move is valid #{index}"
-  move (board, index)
+  display_board(board)
+  # move (board, index)
 end
   
